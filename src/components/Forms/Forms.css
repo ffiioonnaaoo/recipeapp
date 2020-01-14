@@ -1,0 +1,169 @@
+
+/* body{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+} */
+
+.formPage{
+    background-color:#f4f3f0;
+    display: flex;
+    height:86vh;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.form{
+   
+display: flex;
+flex-direction: column;
+background-color:#ffffff;
+width:30%;
+padding: 15px 50px 70px 50px;
+height: 50%;   
+margin-top:20px;
+} 
+
+#signup-form{
+    height: 78%;  
+    margin-top:20px; 
+}
+
+
+
+.form button{
+    width:100%;
+    background-color:#193c33;
+    border:none;
+    margin-top:20px;
+    padding:10px;
+    color:#ffffff;
+    font-weight: 500;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+.form input{
+    border: 0.5px solid #cccccc;
+    font-size: 1.2em;
+    padding:10px;
+} 
+.form-header{
+    margin-bottom:20px;
+    text-align: center;
+
+
+}
+.form h1{
+    color:#193c33;
+    font-size:1.2em;
+    font-weight:100;
+}
+
+.form label {
+    margin-bottom:5px;
+    margin-top:15px;
+    color: #999999;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.7em;
+}
+#profile-Container{
+    width:450px;
+    display:flex;
+    flex-direction:column;
+}
+
+.form-notification{
+    margin-top:10px;
+    font-size: 0.9;
+ 
+}
+
+.name-input{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;      
+ 
+}
+
+.name-input input{
+width:80%;
+
+}
+
+.name{
+   
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.error-notification{
+    font-size: 10px;
+    color: red;
+    margin:0;
+}
+
+.success-notification{
+
+ font-size:24px;
+ font-weight: 900;
+ text-align: center;
+}
+
+
+
+.chatbox input{
+    height:30px;
+    margin-bottom:20px;
+    
+
+}
+.chatbox input{
+    height:40px;
+    border:none;
+    font-size: 1em;
+    
+   
+}
+
+.chatbox-button{
+    height:40px;
+    border:none;
+    margin-right:20px;
+    padding:5px;
+    font-size: em;
+    text-transform: uppercase;
+}
+
+
+.chaticon{
+    height:50px;
+    animation-name: shake;
+    animation-duration: 1s;
+    position: relative;
+    animation-iteration-count: infinite;
+  
+}
+
+@keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }

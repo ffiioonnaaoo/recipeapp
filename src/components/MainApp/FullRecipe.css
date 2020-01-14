@@ -1,0 +1,81 @@
+
+        .full-recipe-header, article, aside, .title{
+             padding:1em;
+        }
+
+        .title h1{
+            color:#193c33;
+
+        }
+        .instruction{
+            background-color:#ffffff;
+            margin:30px;
+            padding:30px;
+            font-size: 21px;
+
+        }
+        .title p{
+            background-color: #f74b3c;
+            width:100px;
+            color:white;
+            font-size:16px;
+            border-radius: 5px;
+        
+            
+        }
+        @media (min-width:600px){
+            .full-recipe-page {
+                background-color:#F4F3F0;
+                display:grid;
+                grid-template-columns:repeat(3, 1fr);
+                grid-template-areas: 
+                    "tt tt tt"
+                    "hd hd hd"
+                    "as at at ";
+                    grid-gap:5px;
+            }
+            
+            .full-recipe-header{
+                grid-area: hd;
+                display: flex;
+        
+                justify-content: center;
+            }
+            article{
+                 grid-area: at;
+            }
+            aside{
+                 grid-area: as;
+            }
+            .title{
+                display:flex;
+                flex-direction: column;
+                align-items: center;
+                margin:0;
+                padding:0;
+                grid-area: tt;
+                color:#193c33;
+                font-size: 24px;
+                text-align: center;
+           }
+           
+          
+        }
+
+        .recipeimg{
+            width:35%;
+            height:auto;
+            border:10px solid white;
+        }
+
+        .ingred{
+            font-size: 18px;
+            padding:0px 0px 0px 20px;
+            margin:20px;
+        }
+
+        .number{
+            font-size: 56px;
+            padding:20px;
+            color:#DEDBD8;
+        }

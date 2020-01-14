@@ -1,0 +1,417 @@
+
+/*  */
+nav{
+  background-color:#fff;
+  height: 80px;
+
+}
+.subNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+ 
+  
+}
+nav a{
+      text-decoration: none;
+      margin: 0 40px;
+      color:#193c33;
+}
+
+.logoContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top:10px;
+  margin-bottom:10px;
+  font-weight: 900;
+  font-family: 'Corben', cursive;
+
+}
+
+a:hover {
+  color: red;
+} 
+
+
+nav img {
+    height:30px;
+
+   
+   
+}
+ /* nav end */
+ /* home page */
+.slideContainer h1{
+  color:#193c33;
+}
+
+.homepageMain{
+    background: url("../../assets/images/oranges.jpg") no-repeat center center fixed;   
+    min-height:90vh;
+    background-attachment: local;
+    background-size: cover;
+
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+.calorieResult p{
+  color:#f3642c;
+  font-weight: 700;
+  font-size: 2em;
+  padding-top:20px;
+}
+
+  #caloriePage{
+    background: url("../../assets/images/fruit44.png") no-repeat center center; 
+  background-size:109%;
+    height:87vh;
+    background-attachment: local;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    text-align: center;
+
+    
+}
+
+#caloriePage input {
+
+}
+.homepageMain h1 {
+    font-size:2.5em;
+    color:#ffffff;
+    padding:50px, 50px, 0px, 50px;
+} 
+
+.homepageMain p {
+    padding-left:100px;
+    padding-right:100px;
+    color:white;
+    font-size:1.5em;
+}
+.searchContainer{
+
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top:50px;
+  height: px;
+}
+ button {
+  background-color:#193c33;
+color:white;
+
+}
+
+
+
+.recipeContainer{
+    display: flex;
+    background-color: #F4F3F0;
+  
+}
+
+.recipeItem{
+    padding: 20px;
+    text-align: center;
+    flex-basis: 100%;
+    text-align: center;
+    margin:20px;
+ 
+}
+
+
+.searchContainer {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.searchContainer input{
+    font-size: 1.2em;
+    padding:15px;
+    width:30%;
+    border:none;
+    border: 0.5px solid grey;
+}
+.searchContainer button{
+  padding:15px;
+  width:15%;
+  border:none;
+  font-weight: 500;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+.recipeImg{
+    border:5px white solid;
+}
+
+
+.nutritionSearch{
+    height:88vh;
+    background-color:#F4F3F0;  
+}
+
+
+.bmiContainer{
+    background-color:#eeebe6;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.bmiContainer h1{
+  padding-top:30px;
+color:#193c33;
+
+}
+
+.bmiContainer p{
+  color:#f3642c;
+  border-bottom:200px;
+  font-weight: 700;
+  }
+
+  .bmiContainer label{
+    margin-top: 50px;
+    color:#193c33;
+    border-bottom:200px;
+    text-align: left;
+    margin-bottom:7px;
+    }
+.bmi-input-container-main{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+  
+
+}
+.bmi-input-container{
+    display:flex;
+    flex-direction: column;
+    width:30vw;
+}
+
+.bmi-input-container input{
+    font-size: 2em;
+    padding: 10px;
+ 
+}
+.bmibutton{
+  padding:15px; 
+  margin-left:30px;
+  width:15%;  
+  border:none;
+  font-weight: 500;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  margin:20px;
+}
+
+.bmiResultMsg{
+    font-size: larger;
+    
+}
+
+.whiteText{
+    color:white;
+}
+
+.bmi{
+    font-size: 4em;
+ 
+}
+
+/* slider page */
+#sliderPage{
+  min-height: 90vh;
+  background-color: #f4f3f0;
+}
+
+#sliderPage h1{
+  font-size: 32px;
+  color: #193c33;
+  margin-left:50px;
+}
+#sliderPage button{
+  padding:15px; 
+  margin-left:30px;
+  width:15%;
+  border:none;
+  font-weight: 500;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+  /* The slider itself */
+
+  .slideContainer {
+    margin:25px 50px 50px 50px;
+padding:30px;
+    background-color: white;
+
+  }
+  
+  .slider {
+
+    appearance: none;
+    width: 100%;
+    height: 3px;
+    background: #32506b;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity .2s;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #193c33;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #193c33;
+    cursor: pointer;
+  } 
+
+.slider-div{
+    margin:30px;
+  }
+#recipe-by-nutrition-main{
+display:flex;
+flex-direction: row;
+justify-content: space-around;
+flex: 1 1 0px;
+width:100vw;
+
+}
+#recipe-by-nitrition-result-container{
+
+width:100%;
+}
+#recipe-by-nitrition-result-container h2{
+text-decoration: none;
+  font-size:12px;
+  margin-bottom: 10px;
+}
+  
+/* message comp */
+
+.messageBox {
+    background: #F3F3F3;
+    border-radius: 20px;
+    padding: 5px 20px;
+    color: white;
+    display: inline-block;
+    max-width: 80%;
+  }
+  
+  .messageText {
+    width: 100%;
+    letter-spacing: 0;
+    float: left;
+    font-size: 1.1em;
+    word-wrap: break-word;
+  }
+  
+  .messageText img {
+    vertical-align: middle;
+  }
+  
+  .messageContainer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 5%;
+    margin-top: 3px;
+  }
+  
+  .sentText {
+    display: flex;
+    align-items: center;
+    color: #828282;
+    letter-spacing: 0.3px;
+  }
+  
+  .pl-10 {
+    padding-left: 10px;
+  }
+  
+  .pr-10 {
+    padding-right: 10px;
+  }
+  
+  .justifyStart {
+    justify-content: flex-start;
+  }
+  
+  .justifyEnd {
+    justify-content: flex-end;
+  }
+  
+  .colorWhite {
+    color: white;
+  }
+  
+  .colorDark {
+    color: #353535;
+  }
+  
+  .backgroundBlue {
+    background: #2979FF;
+  }
+  
+  .backgroundLight {
+    background: #F3F3F3;
+  }
+
+
+.nutritional-value{
+  font-weight: 700;
+  color: #32506b;
+  text-transform: uppercase;
+
+}
+
+
+.nutritional-value-label{
+  margin-bottom:3px;
+
+}
+
+
+/* profile */
+
+.profilePage{
+  min-height:88vh;
+  background-color:#eeebe6;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.profileCard{
+  background-color: white;
+  width: 300px;
+  max-height:400px;
+  margin-top:50px;
+  padding: 50px;
+  font-size: 24px;
+
+}
+
